@@ -5,7 +5,7 @@ headless = true
 subtitle = ""
 title = "Featured Content"
 weight = 50
-widget = "featured content"
+widget = "accomplishments"
 [[item]]
 certificate_url = ""
 date_end = ""
