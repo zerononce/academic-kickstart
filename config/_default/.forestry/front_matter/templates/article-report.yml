@@ -26,3 +26,5 @@ fields:
     required: false
   label: text field
   description: 'Where you write all your content '
+pages:
+- content/post/rocketman.md
