@@ -1,0 +1,20 @@
+---
+label: Article/Report
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: number
+  name: view
+  label: view
+- type: field_group
+  name: header
+  label: header
+  fields:
+  - type: text
+    name: caption
+    label: caption
+  - type: text
+    name: image
+    label: image
