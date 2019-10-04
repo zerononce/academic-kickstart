@@ -1,9 +1,0 @@
----
-label: Testing
-hide_body: false
-fields:
-- name: picture
-  type: file
-  config:
-    maxSize: 250
-  label: picture
