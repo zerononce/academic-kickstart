@@ -1,5 +1,4 @@
 +++
-draft = true
 images = "/uploads/CryptoMedication Original.png"
 text_field = "Rocketman is on his fucking way bitch "
 title = "Rocketman"
