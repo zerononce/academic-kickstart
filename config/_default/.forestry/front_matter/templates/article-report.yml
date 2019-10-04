@@ -8,6 +8,11 @@ fields:
 - type: number
   name: view
   label: view
+- name: images
+  type: file
+  config:
+    maxSize: 250
+  label: images
 - type: field_group
   name: header
   label: header
@@ -15,9 +20,6 @@ fields:
   - type: text
     name: caption
     label: caption
-  - type: text
-    name: image
-    label: image
 - name: text_field
   type: text
   config:
