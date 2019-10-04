@@ -5,11 +5,6 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: config/_default/params.toml
-  label: Parameters
-  create: all
-  match: "**/*"
-- type: directory
   path: content/home
   label: Home
   create: all
