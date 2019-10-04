@@ -1,6 +1,6 @@
 ---
 label: Article/Report
-hide_body: true
+hide_body: false
 fields:
 - type: text
   name: title
@@ -18,3 +18,9 @@ fields:
   - type: text
     name: image
     label: image
+- name: text_field
+  type: text
+  config:
+    required: false
+  label: text field
+  description: 'Where you write all your content '
