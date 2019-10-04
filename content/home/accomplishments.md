@@ -3,9 +3,9 @@ active = true
 date_format = "Jan 2006"
 headless = true
 subtitle = ""
-title = "Accomplish&shy;ments"
+title = "Featured Content"
 weight = 50
-widget = "accomplishments"
+widget = "featured content"
 [[item]]
 certificate_url = ""
 date_end = ""
