@@ -2,7 +2,7 @@
 images = "/uploads/CryptoMedication Original.png"
 text_field = "Rocketman is on his fucking way bitch "
 title = "Rocketman"
-view = 2
+view = 7
 [header]
 caption = ""
 
