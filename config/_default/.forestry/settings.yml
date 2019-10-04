@@ -5,8 +5,8 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: academic-kickstart/content
-  label: 'Content '
+  path: content/post
+  label: Post
   create: all
   match: "**/*"
 - type: document
