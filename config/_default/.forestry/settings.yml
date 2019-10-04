@@ -4,19 +4,9 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: directory
-  path: academic-kickstart/content/authors/admin
-  label: Admin
-  create: all
-  match: "**/*"
 - type: document
   path: config/_default/menus.toml
   label: Menus.toml
-- type: directory
-  path: academic-kickstart/config/_default
-  label: Default
-  create: all
-  match: "**/*"
 - type: document
   path: config/_default/params.toml
   label: 'Params.toml '
