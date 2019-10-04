@@ -5,6 +5,16 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: content/talk
+  label: Talk
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/publication
+  label: Publication
+  create: all
+  match: "**/*"
+- type: directory
   path: content/post
   label: Post
   create: all
