@@ -10,7 +10,6 @@ sections:
 - type: document
   path: data/page_sharer.toml
   label: Page_Sharer
-  match: "**/*"
 - type: directory
   path: data/themes
   label: themes
