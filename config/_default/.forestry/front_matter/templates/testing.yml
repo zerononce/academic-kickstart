@@ -1,4 +1,9 @@
 ---
 label: Testing
 hide_body: false
-fields: []
+fields:
+- name: picture
+  type: file
+  config:
+    maxSize: 250
+  label: picture
