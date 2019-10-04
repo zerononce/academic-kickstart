@@ -5,6 +5,9 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: scripts/init_kickstart.sh
+  label: Init_kickstart.sh
+- type: document
   path: data/page_sharer.toml
   label: Page_Sharer
   match: "**/*"
