@@ -5,12 +5,15 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: scripts/init_kickstart.sh
+  label: scripts/init_kickstart.sh
+  match: "**/*"
+- type: document
   path: data/themes/.gitkeep
   label: data/themes/.gitkeep
 - type: document
   path: data/fonts/.gitkeep
   label: data/fonts/.gitkeep
-  match: "**/*"
 - type: document
   path: content/authors/admin/avatar.jpg
   label: content/authors/admin/avatar.jpg
