@@ -5,6 +5,9 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: static/img/.gitkeep
+  label: static/img/.gitkeep
+- type: document
   path: scripts/init_kickstart.sh
   label: scripts/init_kickstart.sh
   match: "**/*"
@@ -35,9 +38,6 @@ sections:
 - type: document
   path: content/post/_index.md
   label: post_index.md
-- type: document
-  path: scripts/init_kickstart.sh
-  label: Init_kickstart.sh
 - type: document
   path: data/page_sharer.toml
   label: Page_Sharer
