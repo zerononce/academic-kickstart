@@ -5,6 +5,14 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: content/publication/_index.md
+  label: pub index.md
+  match: "**/*"
+- type: document
+  path: content/post/_index.md
+  label: post_index.md
+  match: "**/*"
+- type: document
   path: scripts/init_kickstart.sh
   label: Init_kickstart.sh
 - type: document
