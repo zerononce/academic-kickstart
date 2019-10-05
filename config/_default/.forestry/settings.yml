@@ -5,13 +5,19 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: content/authors/admin/avatar.jpg
+  label: content/authors/admin/avatar.jpg
+  match: "**/*"
+- type: document
+  path: content/authors/admin/_index.md
+  label: content/authors/admin/_index.md
+  match: "**/*"
+- type: document
   path: config/_default/languages.toml
   label: config/_default/languages.toml
-  match: "**/*"
 - type: document
   path: config/_default/config.toml
   label: config/_default/config.toml
-  match: "**/*"
 - type: document
   path: content/talk/_index.md
   label: talk_index.md
