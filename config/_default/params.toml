@@ -99,5 +99,5 @@ name = "Chat on Keybase"
 [[contact_links]]
 icon = "comments"
 icon_pack = "fas"
-link = "https://discourse.gohugo.io"
-name = "Discuss on Forum"
+link = "https://forum.hash.fail"
+name = "Forums"
