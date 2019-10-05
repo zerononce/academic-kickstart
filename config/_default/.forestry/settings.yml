@@ -10,7 +10,6 @@ sections:
 - type: document
   path: scripts/init_kickstart.sh
   label: scripts/init_kickstart.sh
-  match: "**/*"
 - type: document
   path: data/themes/.gitkeep
   label: data/themes/.gitkeep
