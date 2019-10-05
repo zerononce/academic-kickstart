@@ -5,6 +5,10 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: ".editorconfig"
+  label: ".editorconfig"
+  match: "**/*"
+- type: document
   path: static/img/.gitkeep
   label: static/img/.gitkeep
 - type: document
