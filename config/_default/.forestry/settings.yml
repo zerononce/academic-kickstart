@@ -5,6 +5,10 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: content/talk/_index.md
+  label: talk_index.md
+  match: "**/*"
+- type: document
   path: content/publication/_index.md
   label: pub index.md
   match: "**/*"
