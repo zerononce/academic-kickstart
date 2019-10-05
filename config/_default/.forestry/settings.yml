@@ -5,6 +5,10 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: view.sh
+  label: view.sh
+  match: "**/*"
+- type: document
   path: ".editorconfig"
   label: ".editorconfig"
   match: "**/*"
