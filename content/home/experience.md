@@ -4,7 +4,7 @@ date_format = "Jan 2006"
 experience = []
 headless = true
 subtitle = ""
-title = "Experience"
+title = ""
 weight = 40
 widget = "experience"
 
