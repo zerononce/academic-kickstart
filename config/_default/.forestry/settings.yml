@@ -5,17 +5,22 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: config/_default/languages.toml
+  label: config/_default/languages.toml
+  match: "**/*"
+- type: document
+  path: config/_default/config.toml
+  label: config/_default/config.toml
+  match: "**/*"
+- type: document
   path: content/talk/_index.md
   label: talk_index.md
-  match: "**/*"
 - type: document
   path: content/publication/_index.md
   label: pub index.md
-  match: "**/*"
 - type: document
   path: content/post/_index.md
   label: post_index.md
-  match: "**/*"
 - type: document
   path: scripts/init_kickstart.sh
   label: Init_kickstart.sh
