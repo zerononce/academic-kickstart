@@ -5,6 +5,9 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: data/themes/.gitkeep
+  label: data/themes/.gitkeep
+- type: document
   path: data/fonts/.gitkeep
   label: data/fonts/.gitkeep
   match: "**/*"
